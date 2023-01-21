@@ -1,0 +1,67 @@
+body {
+  background: #645c5c;
+  color: #fff;
+  padding: 25px;
+  font-family: sans-serif;
+}
+img {
+  border-radius: 5%;
+  
+}
+
+ /* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #e93232;
+ border-radius: 3%;
+  
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+  
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #f9fdfe;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+} 
+body {
+	animation: fadeInAnimation ease 3s
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+h1 {
+  color: #e93232;
+}
+p {
+  color: #000000;
+  font-size: 1.25em;
+}
